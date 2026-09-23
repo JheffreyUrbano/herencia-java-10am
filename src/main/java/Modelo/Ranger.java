@@ -8,32 +8,26 @@ package Modelo;
  *
  * @author Jurbano
  */
-public class Personaje {
-    String nombre;
-    int constitucion;
+public class Ranger extends Personaje{
 
-    public Personaje(String nombre, int constitucion) {
-        this.nombre = nombre;
-        this.constitucion = constitucion;
+    public Ranger(String nombre, int contitucion) {
+        super(nombre, contitucion);
     }
-
-    public String getNombre() {
+    
+    public String getNombre(){
         return nombre;
     }
-
-    public void setNombre(String nombre) {
+    
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
-
-    public int getContitucion() {
-        return constitucion;
-    }
-
+    
     public void setContitucion(int contitucion) {
         this.constitucion = contitucion;
     }
     
+    @Override
     public String realizarAtaque(){
-        return "Realiza un ataque sin armas, con los puños";
+        return "Dispara con su fecla envenenada desde las sombras";
     }
 }
