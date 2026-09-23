@@ -28,6 +28,6 @@ public class Paladin extends Personaje{
     
     @Override
     public String realizarAtaque(){
-        return "Golpea con su martillo divino.";
+        return "Golpea con su martillo divino y hace un ataque radiante.";
     }
 }
