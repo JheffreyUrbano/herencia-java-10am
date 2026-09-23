@@ -9,6 +9,7 @@ package Modelo;
  * @author Jurbano
  */
 public class Personaje {
+
     String nombre;
     int constitucion;
 
@@ -32,8 +33,8 @@ public class Personaje {
     public void setContitucion(int contitucion) {
         this.constitucion = contitucion;
     }
-    
-    public String realizarAtaque(){
+
+    public String realizarAtaque() {
         return "Realiza un ataque sin armas, con los puños";
     }
 }

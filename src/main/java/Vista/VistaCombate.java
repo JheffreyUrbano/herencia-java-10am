@@ -9,17 +9,17 @@ package Vista;
  * @author Jurbano
  */
 public class VistaCombate {
-    
-    public void mostrarInicioDeCombate(){
-    
+
+    public void mostrarInicioDeCombate() {
+
         System.out.println("===========🌀👑🌀===========");
         System.out.println("=====Inicio de Combate=====");
-        System.out.println("===========🌀👑🌀===========");    
+        System.out.println("===========🌀👑🌀===========");
     }
-    
-    public void mostrarAtaque(String nombrePersonaje, String accionAtaque){
-    
-        System.out.println("🌀👑🌀" + nombrePersonaje + " " + accionAtaque);
+
+    public void mostrarAtaque(String nombrePersonaje, String accionAtaque) {
+
+        System.out.println("🌀🤴🌀" + nombrePersonaje + " " + accionAtaque);
     }
-    
+
 }
